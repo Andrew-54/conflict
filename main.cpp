@@ -8,6 +8,7 @@ void say(string);
 int main()
 {
     cout << "Greetings\n";
+
     cout << "Hello, World\n";
     say("hi");
     cout << "The sum of 3 and 4 is " << add(3,4) << endl;
@@ -22,5 +23,5 @@ void say(string s)
 
 int add(int a, int b, int c)
 {
-    return a+b/c;
+    return a+b*c;
 }
