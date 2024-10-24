@@ -20,12 +20,7 @@ void say(string s)
 }
 
 
-int add(int a, int b)
+int add(int a, int b, int c)
 {
-
-
-
-
-    
-    return a+b;
+    return a+b/c;
 }
